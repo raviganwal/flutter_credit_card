@@ -19,7 +19,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_credit_card:
+  flutter_credit_card_new:
     path: ../
 
 

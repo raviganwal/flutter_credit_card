@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_credit_card/credit_card_widget.dart';
+import 'package:flutter_credit_card_new/credit_card_widget.dart';
 
 class CustomCardTypeIcon {
   CustomCardTypeIcon({

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_credit_card/credit_card_brand.dart';
-import 'package:flutter_credit_card/credit_card_form.dart';
-import 'package:flutter_credit_card/credit_card_model.dart';
-import 'package:flutter_credit_card/flutter_credit_card.dart';
+import 'package:flutter_credit_card_new/credit_card_brand.dart';
+import 'package:flutter_credit_card_new/credit_card_form.dart';
+import 'package:flutter_credit_card_new/credit_card_model.dart';
+import 'package:flutter_credit_card_new/credit_card_widget.dart';
+import 'package:flutter_credit_card_new/custom_card_type_icon.dart';
+import 'package:flutter_credit_card_new/glassmorphism_config.dart';
 
 void main() => runApp(MySample());
 
