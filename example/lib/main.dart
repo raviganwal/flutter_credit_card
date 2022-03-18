@@ -76,7 +76,8 @@ class MySampleState extends State<MySample> {
                   backgroundImage:
                       useBackgroundImage ? 'assets/card_bg.png' : null,
                   isSwipeGestureEnabled: true,
-                  onCreditCardWidgetChange: (CreditCardBrand creditCardBrand) {},
+                  onCreditCardWidgetChange:
+                      (CreditCardBrand creditCardBrand) {},
                   customCardTypeIcons: <CustomCardTypeIcon>[
                     CustomCardTypeIcon(
                       cardType: CardType.mastercard,
@@ -104,7 +105,6 @@ class MySampleState extends State<MySample> {
                           cardHolderName: cardHolderName,
                           expiryDate: expiryDate,
                           themeColor: Colors.blue,
-                          textColor: Colors.white,
                           cardNumberDecoration: InputDecoration(
                             labelText: 'Number',
                             hintText: 'XXXX XXXX XXXX XXXX',
@@ -137,6 +137,8 @@ class MySampleState extends State<MySample> {
                             labelText: 'Card Holder',
                           ),
                           onCreditCardModelChange: onCreditCardModelChange,
+                          textStyle:
+                              const TextStyle(color: Colors.white, fontSize: 12),
                         ),
                         const SizedBox(
                           height: 20,
