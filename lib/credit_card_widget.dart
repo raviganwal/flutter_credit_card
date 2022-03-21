@@ -31,8 +31,8 @@ class CreditCardWidget extends StatefulWidget {
     this.cardBgColor = const Color(0xff1b447b),
     this.obscureCardNumber = true,
     this.obscureCardCvv = true,
-    this.labelCardHolder = 'CARD HOLDER',
-    this.labelExpiredDate = 'MM/YY',
+    this.labelCardHolder = '',
+    this.labelExpiredDate = '',
     this.cardType,
     this.isHolderNameVisible = false,
     this.backgroundImage,
@@ -301,7 +301,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget>
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    'VALID\nTHRU',
+                    '',
                     style: widget.textStyle ??
                         defaultTextStyle.copyWith(fontSize: 7),
                     textAlign: TextAlign.center,
