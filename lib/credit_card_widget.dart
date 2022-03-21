@@ -237,7 +237,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget>
         color: Colors.white,
         fontFamily: 'halter',
         fontSize: 16,
-        package: 'flutter_credit_card',
+        package: 'flutter_credit_card_new',
       ),
     );
 
@@ -263,7 +263,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget>
                     padding: const EdgeInsets.only(left: 16),
                     child: Image.asset(
                       'icons/chip.png',
-                      package: 'flutter_credit_card',
+                      package: 'flutter_credit_card_new',
                       scale: 1,
                     ),
                   ),
@@ -352,7 +352,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget>
         color: Colors.black,
         fontFamily: 'halter',
         fontSize: 16,
-        package: 'flutter_credit_card',
+        package: 'flutter_credit_card_new',
       ),
     );
 
@@ -547,7 +547,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget>
         CardTypeIconAsset[cardType]!,
         height: 48,
         width: 48,
-        package: 'flutter_credit_card',
+        package: 'flutter_credit_card_new',
       );
     }
   }
@@ -569,7 +569,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget>
             CardTypeIconAsset[ccType]!,
             height: 48,
             width: 48,
-            package: 'flutter_credit_card',
+            package: 'flutter_credit_card_new',
           );
           isAmex = false;
           break;
@@ -579,7 +579,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget>
             CardTypeIconAsset[ccType]!,
             height: 48,
             width: 48,
-            package: 'flutter_credit_card',
+            package: 'flutter_credit_card_new',
           );
           isAmex = true;
           break;
@@ -589,7 +589,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget>
             CardTypeIconAsset[ccType]!,
             height: 48,
             width: 48,
-            package: 'flutter_credit_card',
+            package: 'flutter_credit_card_new',
           );
           isAmex = false;
           break;
@@ -599,7 +599,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget>
             CardTypeIconAsset[ccType]!,
             height: 48,
             width: 48,
-            package: 'flutter_credit_card',
+            package: 'flutter_credit_card_new',
           );
           isAmex = false;
           break;
