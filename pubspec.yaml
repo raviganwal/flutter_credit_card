@@ -1,6 +1,6 @@
 name: flutter_credit_card_new
 description: A Credit Card widget package, support entering card details, card flip animation.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/raviganwal/flutter_credit_card.git
 issue_tracker: https://github.com/raviganwal/flutter_credit_card/issues
 
