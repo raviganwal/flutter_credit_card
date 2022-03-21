@@ -281,7 +281,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget>
             ),
           ),
           const SizedBox(
-            height: 31,
+            height: 16,
           ),
           Expanded(
             child: Padding(

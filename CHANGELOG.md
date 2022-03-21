@@ -1,2 +1,2 @@
-## 0.0.3
-*   updated credit card form
+## 0.0.4
+*   Fix cardholder display issue in smaller device
